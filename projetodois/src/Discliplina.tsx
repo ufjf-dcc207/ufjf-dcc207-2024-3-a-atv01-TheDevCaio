@@ -1,6 +1,11 @@
 import '../components/disciplinas/index.css'
 
-function  Disciplina(){
+type DisciplinaProps = { 
+codigo: string;
+nome: string;
+}
+
+function  Disciplina({codigo, nome}: DisciplinaProps){
 
 return (
 
@@ -9,7 +14,8 @@ return (
 
 <section>
 <h1>Disciplina - Frontend</h1>
-<p>Eu faço programas</p>
+<p>{codigo}</p>
+<p>{nome}</p>
 </section>
 
 </div>
