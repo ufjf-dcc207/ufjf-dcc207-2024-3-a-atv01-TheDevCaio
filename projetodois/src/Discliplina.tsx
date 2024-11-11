@@ -1,15 +1,19 @@
+import '../components/disciplinas/index.css'
 
 function  Disciplina(){
+
 return (
 
-<div>
 <main>
+<div className="disciplina">
+
 <section>
 <h1>Disciplina - Frontend</h1>
 <p>Eu faço programas</p>
 </section>
-</main>
+
 </div>
+</main>
 );
 
 }

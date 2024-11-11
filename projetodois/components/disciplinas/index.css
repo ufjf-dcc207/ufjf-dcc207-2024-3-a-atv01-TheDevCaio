@@ -1,0 +1,8 @@
+.disciplina {
+    display: flex;
+    gap: 0.2em;
+}
+
+.discplina > div {
+    border: 1px solid lightgrey;
+}
