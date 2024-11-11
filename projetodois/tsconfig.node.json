@@ -5,7 +5,8 @@
     "lib": ["ES2023"],
     "module": "ESNext",
     "skipLibCheck": true,
-
+    "composite": true,   // Ensure this is set if you are using project references.
+    "incremental": true, // <-- Add this line
     /* Bundler mode */
     "moduleResolution": "Bundler",
     "allowImportingTsExtensions": true,
